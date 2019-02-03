@@ -94,11 +94,17 @@ Oozie is integrated with the rest of the Hadoop stack supporting several types o
 Oozie is a scalable, reliable and extensible system.   
 
 #### Data Ingestion
-* **Oqoop**
+* **Sqoop**  
+
+Apache Sqoop is a tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases.
+
 * **Flume**
+
+Apache Flume is a distributed, reliable, and available software for efficiently collecting, aggregating, and moving large amounts of log data. It has a simple and flexible architecture based on streaming data flows. It is robust and fault tolerant with tunable reliability mechanisms and many failover and recovery mechanisms. It uses a simple extensible data model that allows for online analytic application.
+
 * **Kafka**
 
-
+The project aims to provide a unified, high-throughput, low-latency platform for handling real-time data feeds. Its storage layer is essentially a "massively scalable pub/sub message queue designed as a distributed transaction log,"[3] making it highly valuable for enterprise infrastructures to process streaming data. Additionally, Kafka connects to external systems (for data import/export) via Kafka Connect and provides Kafka Streams, a Java stream processing library.
 
 ## Login
 To login into Ambari is (If you have problems login to Ambari check the Windows Services in your Control Panel make sure Oracle database is not running on port 8080. You can stop OracleServiceXE and change the startup type to manual so the next time login in your computer the Oracle Service is not running.) :
