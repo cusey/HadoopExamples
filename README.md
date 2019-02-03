@@ -106,6 +106,25 @@ Apache Flume is a distributed, reliable, and available software for efficiently 
 
 The project aims to provide a unified, high-throughput, low-latency platform for handling real-time data feeds. Its storage layer is essentially a "massively scalable pub/sub message queue designed as a distributed transaction log, making it highly valuable for enterprise infrastructures to process streaming data. Additionally, Kafka connects to external systems (for data import/export) via Kafka Connect and provides Kafka Streams, a Java stream processing library.
 
+### External Data Storage   
+
+<img 
+src=https://github.com/cusey/ImageForWiki/blob/master/HadoopExamples/ExternalDataStorage.png" 
+alt="Angular Start Page" 
+height="300px"/>
+
+* **MySql**
+
+MySQL is an open source relational database management system. MySQL is a component of the LAMP web application software stack (and others), which is an acronym for Linux, Apache, MySQL, Perl/PHP/Python. MySQL is used by many database-driven web applications, including Drupal, Joomla, phpBB, and WordPress.
+
+* **Cassandra**
+
+Apache Cassandra is a free and open-source, distributed, wide column store, NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. Cassandra offers robust support for clusters spanning multiple datacenters,[1] with asynchronous masterless replication allowing low latency operations for all clients.
+
+* **Mongo DB**
+
+MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemata. 
+
 ## Login
 To login into Ambari is (If you have problems login to Ambari check the Windows Services in your Control Panel make sure Oracle database is not running on port 8080. You can stop OracleServiceXE and change the startup type to manual so the next time login in your computer the Oracle Service is not running.) :
 * Username : maria_dev
