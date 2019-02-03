@@ -15,6 +15,29 @@ Hadoop is a open software platform for distributed stoarge and ditributed proces
 * Horizontal scaling is linear    
 * Hadoop: It is not just for batch processing anymore  
 
+### Core Hadoop Ecosystem
+* MapReducd (core part of hadoop)   
+
+* Yarn (core part of hadoop)  
+
+* HDFS (core part of hadoop)   
+
+Hadoop File System was developed using distributed file system design. It is run on commodity hardware. Unlike other distributed systems, HDFS is highly faulttolerant and designed using low-cost hardware.
+
+HDFS holds very large amount of data and provides easier access. To store such huge data, the files are stored across multiple machines. These files are stored in redundant fashion to rescue the system from possible data losses in case of failure. HDFS also makes applications available to parallel processing.
+
+* Apache Ambari
+* Pig 
+* Hive
+* Tez
+* Spark
+* MESOS
+* Apache Hbase
+* Apache Storm
+*
+
+
+
 ## Login
 To login into Ambari is (If you have problems login to Ambari check the Windows Services in your Control Panel make sure Oracle database is not running on port 8080. You can stop OracleServiceXE and change the startup type to manual so the next time login in your computer the Oracle Service is not running.) :
 * Username : maria_dev
