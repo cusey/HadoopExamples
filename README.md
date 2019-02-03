@@ -109,8 +109,8 @@ The project aims to provide a unified, high-throughput, low-latency platform for
 ### External Data Storage   
 
 <img 
-src=https://github.com/cusey/ImageForWiki/blob/master/HadoopExamples/ExternalDataStorage.png" 
-alt="Angular Start Page" 
+src="https://github.com/cusey/ImageForWiki/blob/master/HadoopExamples/ExternalDataStorage.png" 
+alt="/ExternalDataStorage" 
 height="300px"/>
 
 * **MySql**
