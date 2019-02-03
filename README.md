@@ -16,16 +16,25 @@ Hadoop is a open software platform for distributed stoarge and ditributed proces
 * Hadoop: It is not just for batch processing anymore  
 
 ### Core Hadoop Ecosystem
-* MapReducd (core part of hadoop)   
+* Apache Hadoop HDFS     
 
-* Yarn (core part of hadoop)  
+Hadoop File System was developed using distributed file system design as core part of Apache Hadoop. It is run on commodity hardware. Unlike other distributed systems, HDFS is highly faulttolerant and designed using low-cost hardware.   
 
-* HDFS (core part of hadoop)   
+HDFS holds very large amount of data and provides easier access. To store such huge data, the files are stored across multiple machines. These files are stored in redundant fashion to rescue the system from possible data losses in case of failure. HDFS also makes applications available to parallel processing.   
 
-Hadoop File System was developed using distributed file system design. It is run on commodity hardware. Unlike other distributed systems, HDFS is highly faulttolerant and designed using low-cost hardware.
+* Apache Hadoop YARN (Yet Another Resource Negotiator)  
 
-HDFS holds very large amount of data and provides easier access. To store such huge data, the files are stored across multiple machines. These files are stored in redundant fashion to rescue the system from possible data losses in case of failure. HDFS also makes applications available to parallel processing.
+As core part of Apache Hadoop YARN is to split up the functionalities of resource management and job scheduling/monitoring into separate daemons. The idea is to have a global ResourceManager (RM) and per-application ApplicationMaster (AM). An application is either a single job or a DAG of jobs.   
 
+The ResourceManager and the NodeManager form the data-computation framework. The ResourceManager is the ultimate authority that arbitrates resources among all the applications in the system. The NodeManager is the per-machine framework agent who is responsible for containers, monitoring their resource usage (cpu, memory, disk, network) and reporting the same to the ResourceManager/Scheduler.   
+
+The per-application ApplicationMaster is, in effect, a framework specific library and is tasked with negotiating resources from the ResourceManager and working with the NodeManager(s) to execute and monitor the tasks.     
+
+* Apache Hadoop MapReducd      
+
+As core part of Apache Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data (multi-terabyte data-sets) in-parallel on large clusters (thousands of nodes) of commodity hardware in a reliable, fault-tolerant manner.      
+
+A MapReduce job usually splits the input data-set into independent chunks which are processed by the map tasks in a completely parallel manner. The framework sorts the outputs of the maps, which are then input to the reduce tasks. Typically both the input and the output of the job are stored in a file-system. The framework takes care of scheduling tasks, monitoring them and re-executes the failed tasks.  
 * Apache Ambari
 * Pig 
 * Hive
@@ -34,7 +43,12 @@ HDFS holds very large amount of data and provides easier access. To store such h
 * MESOS
 * Apache Hbase
 * Apache Storm
-*
+* Zookeeper
+* Oozie
+#### Data Ingestion
+* oqoop
+* Flu
+* Kafka
 
 
 
