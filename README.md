@@ -15,7 +15,15 @@ Hadoop is a open software platform for distributed stoarge and ditributed proces
 * Horizontal scaling is linear    
 * Hadoop: It is not just for batch processing anymore  
 
+
 ### Core Hadoop Ecosystem
+
+<img 
+src="https://github.com/cusey/ImageForWiki/blob/master/HadoopExamples/CoreHadoopEcosystem.PNG" 
+alt="Angular Start Page" 
+height="300px"/>
+
+
 * **Apache Hadoop HDFS**     
 
 Hadoop File System was developed using distributed file system design as core part of Apache Hadoop. It is run on commodity hardware. Unlike other distributed systems, HDFS is highly faulttolerant and designed using low-cost hardware.   
