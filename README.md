@@ -125,6 +125,27 @@ Apache Cassandra is a free and open-source, distributed, wide column store, NoSQ
 
 MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemata. 
 
+
+### QueryEngines 
+
+The full definition of an SQL query engine is a piece of software that   
+
+* Recognizes and interprets the SQL language.    
+* Implements data access, both reading and writing, for a relational database, in a way that can be controlled by a user's SQL queries. 
+* Enforce a variety of other resources and data integrity policies necessary for a relational data model and database management system.  
+<img 
+src="https://github.com/cusey/ImageForWiki/blob/master/HadoopExamples/QueryEngines.png" 
+alt="/QueryEngines" 
+height="300px"/>
+
+* **Apache Drill**
+* **Apache Phoenix**
+* **Apache Zeppelin**
+* **Hue**
+* **Presto**
+
+
+
 ## Login
 To login into Ambari is (If you have problems login to Ambari check the Windows Services in your Control Panel make sure Oracle database is not running on port 8080. You can stop OracleServiceXE and change the startup type to manual so the next time login in your computer the Oracle Service is not running.) :
 * Username : maria_dev
