@@ -39,7 +39,7 @@ The per-application ApplicationMaster is, in effect, a framework specific librar
 
 * **MESOS**
 
-Apache Mesos is an open-source project to manage computer clusters. Alternative to Yarn.
+Apache Mesos is an open-source project to manage computer clusters. Alternative to Apache Hadoop YARN.
 
 * **Apache Ambari** 
 
