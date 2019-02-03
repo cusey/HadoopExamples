@@ -51,7 +51,7 @@ Apache Hive is a data warehouse software project built on top of Apache Hadoop f
 * **Spark**
 * **MESOS**
 * **Apache Hbase**
-* **Apache Storm
+* **Apache Storm**
 * **Zookeeper**
 * **Oozie**
 #### Data Ingestion
