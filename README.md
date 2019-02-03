@@ -4,7 +4,10 @@
 ![HortonWorks](https://github.com/cusey/ImageForWiki/blob/master/Logos/hortonworks.PNG)
 
 ## Introduction   
-Login into Ambari is (If you have problems login to Ambari check the Windows Services in your Control Panel make sure Oracle database is not running on port 8080. You can stop OracleServiceXE and change the startup type to manual so the next time login in your computer the Oracle Service is not running.) :
+Hadoop is a open software platform for distributed stoarge and ditributed processing of very large data sets on computer clusters build from commodity hardware.
+
+## Login
+To login into Ambari is (If you have problems login to Ambari check the Windows Services in your Control Panel make sure Oracle database is not running on port 8080. You can stop OracleServiceXE and change the startup type to manual so the next time login in your computer the Oracle Service is not running.) :
 * Username : maria_dev
 * Password : maria_dev
 
